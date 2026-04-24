@@ -1,0 +1,21 @@
+# Local test artefacts
+*.log
+*.tmp
+.DS_Store
+
+# Credentials / secrets (never commit)
+*.pem
+*.key
+*.crt
+.env
+.env.local
+.credentials
+
+# Build outputs
+dist/
+build/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
