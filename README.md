@@ -1,6 +1,6 @@
 # teleproto3-installer
 
-POSIX shell installer, CDN provider plugins, and Cloudflare Worker / Container for [Teleproto3](https://github.com/toxeh/teleproto3) server operators.
+POSIX shell installer, CDN provider plugins, and Cloudflare Worker / Container for [Teleproto3](https://github.com/ankuper/teleproto3) server operators.
 
 ---
 
@@ -9,7 +9,7 @@ POSIX shell installer, CDN provider plugins, and Cloudflare Worker / Container f
 ### 🧑‍💻 "I'm standing up a server"
 → Start at [`docs/quickstart.md`](docs/quickstart.md). One-liner:
 ```sh
-curl -fsSL https://raw.githubusercontent.com/toxeh/teleproto3-installer/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/ankuper/teleproto3-installer/main/install.sh | sh
 ```
 The installer emits a secret URL + a Recovery Letter PDF path + systemd status. No interactive prompts on the happy path. Flags for non-defaults: see [`docs/flags.md`](docs/flags.md).
 
@@ -24,7 +24,7 @@ The installer emits a secret URL + a Recovery Letter PDF path + systemd status. 
 ## Scope
 
 - **In scope:** server provisioning, CDN plugin execution, cert acquisition, systemd unit setup, Recovery Letter PDF emission, operator CLI observability bootstrap.
-- **Out of scope:** protocol internals (see [`toxeh/teleproto3`](https://github.com/toxeh/teleproto3)), client forks (see `toxeh/tdesktop` / `toxeh/Telegram-iOS` / `toxeh/Telegram`), benchmarking (see [`toxeh/teleproto3-bench`](https://github.com/toxeh/teleproto3-bench)).
+- **Out of scope:** protocol internals (see [`ankuper/teleproto3`](https://github.com/ankuper/teleproto3)), client forks (see `ankuper/tdesktop` / `ankuper/Telegram-iOS` / `ankuper/Telegram`), benchmarking (see [`ankuper/teleproto3-bench`](https://github.com/ankuper/teleproto3-bench)).
 
 ## Licence
 

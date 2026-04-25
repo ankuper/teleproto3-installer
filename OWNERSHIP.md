@@ -2,7 +2,7 @@
 
 ## Maintainer
 
-- **@toxeh** — primary maintainer.
+- **@ankuper** — primary maintainer.
 
 Per-area CODEOWNERS pointers live in `.github/CODEOWNERS` when populated.
 
@@ -20,9 +20,9 @@ Other issues → best-effort response.
 
 ## Relationship to other repos
 
-- [`toxeh/teleproto3`](https://github.com/toxeh/teleproto3) is the normative source for protocol, spec, and reference library. This installer consumes its released artefacts; it does not modify them.
-- [`toxeh/teleproto3-bench`](https://github.com/toxeh/teleproto3-bench) exercises servers provisioned by this installer.
+- [`ankuper/teleproto3`](https://github.com/ankuper/teleproto3) is the normative source for protocol, spec, and reference library. This installer consumes its released artefacts; it does not modify them.
+- [`ankuper/teleproto3-bench`](https://github.com/ankuper/teleproto3-bench) exercises servers provisioned by this installer.
 
 ## Succession
 
-If @toxeh is unreachable for 90 days, the community may nominate a successor via a GitHub issue; consensus process per the teleproto3 ecosystem governance.
+If @ankuper is unreachable for 90 days, the community may nominate a successor via a GitHub issue; consensus process per the teleproto3 ecosystem governance.

@@ -16,9 +16,9 @@ Thanks for your interest.
 
 - **POSIX sh strictly.** No bashisms in `install.sh` or `lib/`. Validate with `checkbashisms` + `shellcheck --shell=sh`.
 - **No interactive prompts on the happy path.** The installer must complete in one invocation without asking questions. Non-default behaviour is behind flags.
-- **Plain-text stdout.** No ASCII art, no emoji, no progress bars. Status prefixes `[ok]` / `[warn]` / `[err]` / `[info]` per the CLI output pattern (see `toxeh/teleproto3` architecture §12.6).
+- **Plain-text stdout.** No ASCII art, no emoji, no progress bars. Status prefixes `[ok]` / `[warn]` / `[err]` / `[info]` per the CLI output pattern (see `ankuper/teleproto3` architecture §12.6).
 - **Zero telemetry.** The installer does not phone home. Ever.
-- **Deterministic secret output.** Same inputs → same secret URL format. Recovery Letter PDF generated from Typst source (sourced from `toxeh/teleproto3/spec/ux-tokens/pdf/recovery-letter.typ`).
+- **Deterministic secret output.** Same inputs → same secret URL format. Recovery Letter PDF generated from Typst source (sourced from `ankuper/teleproto3/spec/ux-tokens/pdf/recovery-letter.typ`).
 
 ## PR scope
 
